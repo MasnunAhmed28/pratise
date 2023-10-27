@@ -18,7 +18,12 @@ def merge_sorted_lists(sorted_lists):
 
     return merged_list
 
-
+sorted_lists = [
+    [10, 20, 30, 40],
+    [15, 25, 35],
+    [27, 29, 37, 48, 93],
+    [32, 33]
+]
 
 
 merged_list = merge_sorted_lists(sorted_lists)
